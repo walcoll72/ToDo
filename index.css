@@ -1,0 +1,54 @@
+body{
+  background-color: #2c3e50;
+}
+h4{
+  font-size: 30px;
+  color:white;
+}
+h1{
+  font-size: 50px;
+  color:white;
+}
+.form_s{
+  width: 200px;
+  height: 30px;
+}
+
+.toDos{
+  font-size: 25px;
+  color:white
+}
+.form{
+  display: none;
+}
+.greetings{
+  display: none
+  margin-bottom:0px;
+}
+.logout{
+  display: none;
+  margin-bottom: 10px;
+}
+.showing{
+  display: block;
+}
+.js-greetings{
+  margin-bottom: 0px;
+}
+.bgImage{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+@keyframes fadeIn {
+  from{
+  opacity: 0;
+  }
+  to {
+    opacity:1;
+  }
+}
